@@ -1,0 +1,569 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfólio profissional de Breno De Almeida Santos - estudante de Análise e Desenvolvimento de Sistemas com formação na Etec de Guarulhos e curso atual no Instituto Federal.">
+    <meta name="keywords" content="análise e desenvolvimento de sistemas, etec guarulhos, instituto federal, cisco, defesa de redes, portfolio">
+    <meta name="author" content="Breno De Almeida Santos">
+    <meta name="theme-color" content="#0066CC">
+    
+    <title>Breno De Almeida Santos | Análise e Desenvolvimento de Sistemas</title>
+    
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome para ícones -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    
+    <!-- CSS Customizado -->
+    <link rel="stylesheet" href="css/style.css">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='75' font-size='75' font-weight='bold' fill='%230066CC'>B</text></svg>">
+</head>
+<body>
+    <!-- ===== PAGE LOADER ===== -->
+    <div id="pageLoader">
+        <div class="loader-spinner"></div>
+    </div>
+
+    <!-- ===== HEADER / NAVIGATION ===== -->
+    <header class="header navbar-sticky">
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container-lg">
+                <a class="navbar-brand" href="#home">
+                    <span class="brand-icon">B</span> Breno
+                </a>
+                
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" 
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#sobre">Sobre</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#habilidades">Habilidades</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#projetos">Projetos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#experiencia">Experiência</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contato">Contato</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link theme-toggle" href="#" id="themeToggle" role="button">
+                                <i class="fas fa-moon"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- ===== HERO SECTION ===== -->
+    <section id="home" class="hero">
+        <div class="container-lg">
+            <div class="row align-items-center">
+                <div class="col-lg-8 col-md-10 mx-auto text-center">
+                    <div class="hero-content">
+                        <div class="hero-badges">
+                            <span class="status-pill"><i class="fas fa-graduation-cap"></i> ADS</span>
+                            <span class="status-pill"><i class="fas fa-network-wired"></i> Redes</span>
+                            <span class="status-pill"><i class="fas fa-code"></i> Desenvolvimento</span>
+                        </div>
+
+                        <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='200' height='200' viewBox='0 0 200 200'%3E%3Cdefs%3E%3ClinearGradient id='g' x1='0%25' x2='100%25' y1='0%25' y2='100%25'%3E%3Cstop offset='0%25' stop-color='%230d63ff'/%3E%3Cstop offset='100%25' stop-color='%2303b9d9'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='200' height='200' rx='36' fill='url(%23g)'/%3E%3Ctext x='50%25' y='54%25' text-anchor='middle' font-family='Segoe UI, Arial, sans-serif' font-size='94' font-weight='700' fill='white'%3EB%3C/text%3E%3C/svg%3E" alt="Foto de Breno De Almeida Santos" class="hero-image">
+                        <h1 class="hero-title">Breno De Almeida Santos</h1>
+                        <p class="hero-subtitle">Análise e Desenvolvimento de Sistemas</p>
+                        <p class="hero-description">Estudei na Etec de Guarulhos de 2023 a 2025 e agora curso ADS no Instituto Federal. Também conquistei a certificação de Defesa de Redes entregue pela Cisco em 2025.</p>
+
+                        <div class="hero-stats">
+                            <div>
+                                <strong>2023 - 2025</strong>
+                                <span>Etec de Guarulhos</span>
+                            </div>
+                            <div>
+                                <strong>Atual</strong>
+                                <span>Instituto Federal</span>
+                            </div>
+                            <div>
+                                <strong>2025</strong>
+                                <span>Defesa de Redes</span>
+                            </div>
+                        </div>
+                        
+                        <div class="hero-cta">
+                            <a href="#contato" class="btn btn-primary">Vamos Conversar</a>
+                            <a href="#habilidades" class="btn btn-outline-primary">Minhas Skills</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== ABOUT SECTION ===== -->
+    <section id="sobre" class="section-about">
+        <div class="container-lg">
+            <h2 class="section-title">Sobre Mim</h2>
+            
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <div class="about-content">
+                        <p>
+                           Sou estudante de Análise e Desenvolvimento de Sistemas e, ao longo do meu percurso acadêmico, 
+                           estudei na Etec de Guarulhos de 2023 a 2025, onde desenvolvi uma base sólida em tecnologia, 
+                           programação e análise de sistemas.
+                        </p>
+                        <p>
+                           Atualmente, curso Análise e Desenvolvimento de Sistemas no Instituto Federal, ampliando meus 
+                           conhecimentos e me preparando para atuar com mais profundidade no mercado de tecnologia.
+                        </p>
+                        <p>
+                           Em 2025, também conquistei a certificação de Defesa de Redes entregue pela Cisco, um marco importante
+                           na minha formação e no meu interesse por segurança e infraestrutura de redes.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="about-highlights">
+                        <div class="highlight-item">
+                           <h4>Formação</h4>
+                           <p>Análise e Desenvolvimento de Sistemas na Etec de Guarulhos (2023 - 2025)</p>
+                        </div>
+                        <div class="highlight-item">
+                           <h4>Curso Atual</h4>
+                           <p>Análise e Desenvolvimento de Sistemas no Instituto Federal</p>
+                        </div>
+                        <div class="highlight-item">
+                           <h4>Conquista</h4>
+                           <p>Defesa de Redes entregue pela Cisco em 2025</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== SKILLS/HABILIDADES SECTION ===== -->
+    <section id="habilidades" class="section-skills">
+        <div class="container-lg">
+            <h2 class="section-title">Habilidades & Tecnologias</h2>
+            
+            <div class="row">
+                <!-- Programação -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="skill-category">
+                        <h3 class="skill-title">Programação</h3>
+                        <div class="skills-list">
+                            <span class="skill-badge">HTML5</span>
+                            <span class="skill-badge">CSS3</span>
+                            <span class="skill-badge">JavaScript</span>
+                            <span class="skill-badge">Python</span>
+                            <span class="skill-badge">SQL</span>
+                            <span class="skill-badge">Lógica de Programação</span>
+                            <span class="skill-badge">Análise de Sistemas</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Desenvolvimento -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="skill-category">
+                        <h3 class="skill-title">Desenvolvimento Web</h3>
+                        <div class="skills-list">
+                            <span class="skill-badge">Frontend</span>
+                            <span class="skill-badge">Bootstrap</span>
+                            <span class="skill-badge">Responsive Design</span>
+                            <span class="skill-badge">UI/UX</span>
+                            <span class="skill-badge">Git/GitHub</span>
+                            <span class="skill-badge">Node.js</span>
+                            <span class="skill-badge">APIs</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Redes & Segurança -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="skill-category">
+                        <h3 class="skill-title">Redes & Segurança</h3>
+                        <div class="skills-list">
+                            <span class="skill-badge">Defesa de Redes</span>
+                            <span class="skill-badge">Segurança de Redes</span>
+                            <span class="skill-badge">Cisco Packet Tracer</span>
+                            <span class="skill-badge">Infraestrutura de Redes</span>
+                            <span class="skill-badge">Linux</span>
+                            <span class="skill-badge">Troubleshooting</span>
+                            <span class="skill-badge">Conectividade</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Ferramentas -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="skill-category">
+                        <h3 class="skill-title">Ferramentas</h3>
+                        <div class="skills-list">
+                            <span class="skill-badge">VS Code</span>
+                            <span class="skill-badge">Figma</span>
+                            <span class="skill-badge">MySQL</span>
+                            <span class="skill-badge">PostgreSQL</span>
+                            <span class="skill-badge">Docker</span>
+                            <span class="skill-badge">Windows</span>
+                            <span class="skill-badge">Microsoft Office</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== PROJECTS SECTION ===== -->
+    <section id="projetos" class="section-projects">
+        <div class="container-lg">
+            <h2 class="section-title">Projetos Destacados</h2>
+            
+            <div class="row">
+                <!-- Project 1 -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="project-card">
+                        <div class="project-header">
+                            <h3 class="project-title">E-commerce Platform</h3>
+                            <p class="project-date">2023</p>
+                        </div>
+                        <p class="project-description">
+                            Plataforma de e-commerce completa com carrinho de compras, integração de pagamento e painel administrativo. 
+                            Desenvolvida com React no frontend e Node.js no backend.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">React</span>
+                            <span class="tech-tag">Node.js</span>
+                            <span class="tech-tag">MongoDB</span>
+                            <span class="tech-tag">Stripe</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="btn-link">
+                                <i class="fab fa-github"></i> Repositório
+                            </a>
+                            <a href="https://example.com" target="_blank" rel="noopener noreferrer" class="btn-link">
+                                <i class="fas fa-external-link-alt"></i> Demo
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Project 2 -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="project-card">
+                        <div class="project-header">
+                            <h3 class="project-title">Task Management App</h3>
+                            <p class="project-date">2023</p>
+                        </div>
+                        <p class="project-description">
+                            Aplicação colaborativa de gerenciamento de tarefas com autenticação em tempo real. 
+                            Ideal para equipes remotas com sincronização instantânea entre usuários.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Vue.js</span>
+                            <span class="tech-tag">Firebase</span>
+                            <span class="tech-tag">Tailwind</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="btn-link">
+                                <i class="fab fa-github"></i> Repositório
+                            </a>
+                            <a href="https://example.com" target="_blank" rel="noopener noreferrer" class="btn-link">
+                                <i class="fas fa-external-link-alt"></i> Demo
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Project 3 -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="project-card">
+                        <div class="project-header">
+                            <h3 class="project-title">Weather Dashboard</h3>
+                            <p class="project-date">2022</p>
+                        </div>
+                        <p class="project-description">
+                            Dashboard de clima em tempo real que integra múltiplas APIs para fornecer 
+                            previsões precisas e dados meteorológicos detalhados.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">React</span>
+                            <span class="tech-tag">Chart.js</span>
+                            <span class="tech-tag">OpenWeather API</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="btn-link">
+                                <i class="fab fa-github"></i> Repositório
+                            </a>
+                            <a href="https://example.com" target="_blank" rel="noopener noreferrer" class="btn-link">
+                                <i class="fas fa-external-link-alt"></i> Demo
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 4 -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="project-card">
+                        <div class="project-header">
+                            <h3 class="project-title">Blog Engine</h3>
+                            <p class="project-date">2022</p>
+                        </div>
+                        <p class="project-description">
+                            Motor de blog minimalista com suporte a markdown, categorias, tags e sistema 
+                            de comentários. SEO otimizado e performance em primeiro lugar.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Node.js</span>
+                            <span class="tech-tag">Express</span>
+                            <span class="tech-tag">PostgreSQL</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="btn-link">
+                                <i class="fab fa-github"></i> Repositório
+                            </a>
+                            <a href="https://example.com" target="_blank" rel="noopener noreferrer" class="btn-link">
+                                <i class="fas fa-external-link-alt"></i> Demo
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 5 -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="project-card">
+                        <div class="project-header">
+                            <h3 class="project-title">Social Media API</h3>
+                            <p class="project-date">2021</p>
+                        </div>
+                        <p class="project-description">
+                            API RESTful completa para rede social com autenticação JWT, posts, comentários 
+                            e sistema de seguidores. Documentação com Swagger.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Node.js</span>
+                            <span class="tech-tag">JWT</span>
+                            <span class="tech-tag">MongoDB</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="btn-link">
+                                <i class="fab fa-github"></i> Repositório
+                            </a>
+                            <a href="https://example.com" target="_blank" rel="noopener noreferrer" class="btn-link">
+                                <i class="fas fa-external-link-alt"></i> Demo
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 6 -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="project-card">
+                        <div class="project-header">
+                            <h3 class="project-title">Fitness Tracker</h3>
+                            <p class="project-date">2021</p>
+                        </div>
+                        <p class="project-description">
+                            Aplicação móvel-first para rastreamento de exercícios e metas de fitness. 
+                            Gráficos interativos, metas personalizadas e notificações push.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">React Native</span>
+                            <span class="tech-tag">Firebase</span>
+                            <span class="tech-tag">Chart.js</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="btn-link">
+                                <i class="fab fa-github"></i> Repositório
+                            </a>
+                            <a href="https://example.com" target="_blank" rel="noopener noreferrer" class="btn-link">
+                                <i class="fas fa-external-link-alt"></i> Demo
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="projects-cta">
+                <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="btn btn-outline-primary">
+                    <i class="fab fa-github"></i> Ver Mais no GitHub
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== EXPERIENCE SECTION ===== -->
+    <section id="experiencia" class="section-experience">
+        <div class="container-lg">
+            <h2 class="section-title">Formação Acadêmica e Conquistas</h2>
+            
+            <div class="timeline">
+                <!-- Experience 1 -->
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="experience-header">
+                            <h3 class="experience-title">Análise e Desenvolvimento de Sistemas</h3>
+                            <p class="experience-company">Etec de Guarulhos</p>
+                            <p class="experience-period">2023 - 2025</p>
+                        </div>
+                        <p class="experience-description">
+                            Estudei Análise e Desenvolvimento de Sistemas na Etec de Guarulhos, desenvolvendo habilidades em 
+                            programação, lógica, infraestrutura e desenvolvimento de soluções tecnológicas.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Experience 2 -->
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="experience-header">
+                            <h3 class="experience-title">Análise e Desenvolvimento de Sistemas</h3>
+                            <p class="experience-company">Instituto Federal</p>
+                            <p class="experience-period">2025 - Presente</p>
+                        </div>
+                        <p class="experience-description">
+                            Atualmente curso Análise e Desenvolvimento de Sistemas no Instituto Federal, expandindo meus conhecimentos
+                            em tecnologia, desenvolvimento e práticas do mercado.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Experience 3 -->
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="experience-header">
+                            <h3 class="experience-title">Conquista de Defesa de Redes</h3>
+                            <p class="experience-company">Cisco</p>
+                            <p class="experience-period">2025</p>
+                        </div>
+                        <p class="experience-description">
+                            Em 2025, recebi a conquista em Defesa de Redes entregue pela Cisco, reforçando meu interesse
+                            e conhecimento em segurança de redes e infraestrutura tecnológica.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ===== CONTACT SECTION ===== -->
+    <section id="contato" class="section-contact">
+        <div class="container-lg">
+            <h2 class="section-title">Vamos Conversar</h2>
+            <p class="section-subtitle">Tem um projeto em mente? Gostaria de colaborar? Entre em contato!</p>
+            
+            <div class="row">
+                <div class="col-lg-6 col-md-8 mx-auto">
+                    <!-- Contact Form -->
+                    <form id="contactForm" class="contact-form" novalidate>
+                        <div class="form-group">
+                            <label for="formName" class="form-label">Nome</label>
+                            <input type="text" class="form-control" id="formName" name="name" required>
+                            <small class="form-error"></small>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="formEmail" class="form-label">Email</label>
+                            <input type="email" class="form-control" id="formEmail" name="email" required>
+                            <small class="form-error"></small>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="formMessage" class="form-label">Mensagem</label>
+                            <textarea class="form-control" id="formMessage" name="message" rows="5" required></textarea>
+                            <small class="form-error"></small>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary w-100">Enviar Mensagem</button>
+                        <div id="formFeedback" class="form-feedback"></div>
+                    </form>
+
+                    <!-- Contact Info -->
+                    <div class="contact-info">
+                        <p>Ou entre em contato através de:</p>
+                        <div class="social-links">
+                            <a href="mailto:breno@example.com" class="social-link" title="Email">
+                                <i class="fas fa-envelope"></i> Email
+                            </a>
+                            <a href="https://linkedin.com/in/breno" target="_blank" rel="noopener noreferrer" class="social-link" title="LinkedIn">
+                                <i class="fab fa-linkedin"></i> LinkedIn
+                            </a>
+                            <a href="https://github.com/breno" target="_blank" rel="noopener noreferrer" class="social-link" title="GitHub">
+                                <i class="fab fa-github"></i> GitHub
+                            </a>
+                            <a href="https://twitter.com/breno" target="_blank" rel="noopener noreferrer" class="social-link" title="Twitter">
+                                <i class="fab fa-twitter"></i> Twitter
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== FOOTER ===== -->
+    <footer class="footer">
+        <div class="container-lg">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>Breno De Almeida Santos</h4>
+                    <p>Estudante de Análise e Desenvolvimento de Sistemas</p>
+                </div>
+
+                <div class="footer-section">
+                    <h5>Links Rápidos</h5>
+                    <ul class="footer-links">
+                        <li><a href="#sobre">Sobre</a></li>
+                        <li><a href="#habilidades">Habilidades</a></li>
+                        <li><a href="#projetos">Projetos</a></li>
+                        <li><a href="#contato">Contato</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h5>Redes Sociais</h5>
+                    <div class="footer-socials">
+                        <a href="https://github.com/breno" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://linkedin.com/in/breno" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="https://twitter.com/breno" target="_blank" rel="noopener noreferrer" aria-label="Twitter">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2025 Breno De Almeida Santos. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+    
+    <!-- Custom JS -->
+    <script src="js/script.js"></script>
+</body>
+</html>
