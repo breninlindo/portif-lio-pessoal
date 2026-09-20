@@ -1,0 +1,58 @@
+Lista de mudanças aplicadas na estilização do site
+
+1. Redesenho completo da paleta visual
+   - Atualizei a identidade visual para um visual moderno com azul principal, verde-água e roxo como reforço cromático.
+   - Mantive contraste adequado e uma atmosfera mais premium e tecnológica.
+
+2. Nova base visual do corpo da página
+   - Ajustei o fundo para um gradiente suave com elementos decorativos discretos.
+   - Reforcei a legibilidade com tipografia mais limpa, espaçamento melhor e micro-contrastes mais refinados.
+
+3. Header e navegação renovados
+   - O menu ficou mais elegante e com foco em transparência + blur.
+   - Os links de navegação ganharam tratamento visual com indicadores de ativo e hover mais sofisticados.
+   - O botão de tema foi ajustado para encaixar melhor no design geral.
+
+4. Hero section totalmente remodelado
+   - Reestruturei o bloco inicial com mais destaque visual, maior hierarquia e melhor equilíbrio entre texto e elementos gráficos.
+   - A imagem do perfil ganhou borda, proporção e sombra mais refinadas.
+   - Os badges e os blocos de estatísticas ficaram mais modernos e consistentes com a identidade do site.
+
+5. Botões reestilizados
+   - Todos os botões receberam nova proporção, bordas, sombras e gradientes mais suaves.
+   - O padrão visual agora transmite mais profissionalismo e sensação de ação.
+
+6. Seções reconfiguradas
+   - Sobre, Habilidades, Projetos, Experiência e Contato ganharam layout mais uniforme e premium.
+   - Houve revisão de margens, bordas, espaçamento interno e balanceamento visual entre elementos.
+
+7. Cards de habilidades e projetos
+   - Os cartões receberam bordas mais delicadas, sombras suaves, hover mais marcante e melhor padronização visual.
+   - Tags e elementos de destaque foram reforçados para uma leitura mais clara e moderna.
+
+8. Timeline da formação e conquistas
+   - Atualizei o timeline para um estilo mais contemporâneo, com destaque mais limpo e maior contraste visual.
+   - A linha central e os marcadores receberam melhor equilíbrio com o restante da interface.
+
+9. Formulário de contato aprimorado
+   - Campos, labels, botões e feedback visual receberam um tratamento mais profissional.
+   - A aparência do formulário ficou mais consistente com o restante do portfólio.
+
+10. Rodapé reformulado
+   - O footer foi ajustado para um visual mais elegante e com melhor separação entre áreas de conteúdo.
+   - Ícones e links receberam melhor contraste e estilo visual.
+
+11. Modo escuro implementado/aprimorado
+   - O tema escuro recebeu ajustes completos para manter consistência com o novo sistema visual.
+   - As superfícies, textos e contrastes foram reequilibrados para manter legibilidade e sofisticação.
+
+12. Melhor responsividade visual
+   - Ajustei espaçamentos, tamanhos e comportamentos para telas menores.
+   - A estrutura continua funcional e elegante em dispositivos móveis.
+
+13. Refinamento geral de UX visual
+   - Adicionei mais profundidade com sombras em níveis adequados.
+   - Aperfeiçoei hover states, bordas e detalhes de interação para deixar a interface mais “premium”.
+
+14. Resultado final
+   - O portfólio manteve o conteúdo original, mas foi transformado em uma apresentação visual mais moderna, profissional e impactante.
